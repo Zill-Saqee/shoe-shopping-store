@@ -33,4 +33,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: run surge
-      run: surge ./build bootcamp-shoe-store-app.surge.sh/ --token ${{ secrets.COVID_TRACKER_TOKEN }}
+      run: surge ./build bootcamp-shoe-store-app.surge.sh/ --token ${{ secrets.SHOE_STORE_TOKEN }}
